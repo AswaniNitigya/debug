@@ -6,6 +6,7 @@ body{
      background-color: #000;
      color: white;
      overflow: hidden;
+    display: flex;
 }
 .main{
     display:flex;
@@ -13,7 +14,7 @@ body{
 }
 .sidebar{
      background-color:black;
-     width: 340px;
+     width: 25vw;
      border-radius: 1rem;
      margin: 0.5rem;
 }
@@ -109,4 +110,20 @@ font-weight: 700;
 margin-top: 0.5rem;
 height: 2rem;
 width: fit-content;
+}
+
+
+
+
+
+
+/* injected by other  */
+
+.sticky_nav img{
+    width:10vw
+}
+
+.music_Player img{
+    width:100vw;
+    height:10vh;
 }
